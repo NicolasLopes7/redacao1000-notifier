@@ -1,4 +1,5 @@
 const fetch = require('node-fetch');
+require("dotenv").config();
 
 setInterval(async () => {
     fetch('https://services.redacaonota1000.com.br/api/v2/aluno/tarefas?size=2', {
